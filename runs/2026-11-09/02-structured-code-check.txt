@@ -1,0 +1,15 @@
+# 09.11.2026, 21:06:47 (Київ) | команда: npm run structured -- --code-check | модель: — | тривалість: 577 мс | код виходу: 0
+
+
+> 2026-quitcode-10-llm-ladder-demo@1.0.0 structured
+> node --env-file=.env 02-structured.mjs --code-check
+
+Режим --code-check: модель не викликаємо, беремо готову відповідь з помилкою в датах.
+{
+  "status": "ok",
+  "leaveType": "vacation",
+  "startDate": "2026-12-20",
+  "endDate": "2026-12-05",
+  "question": null
+}
+Код відхилив: кінець раніше за початок

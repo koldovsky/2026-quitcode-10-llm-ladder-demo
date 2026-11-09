@@ -1,0 +1,14 @@
+# 09.11.2026, 20:41:12 (Київ) | команда: npm run structured -- "Мене не буде кілька днів наступного тижня" | модель: nvidia/nemotron-3.5-super-vl:free | тривалість: 6397 мс | код виходу: 0
+
+
+> 2026-quitcode-10-llm-ladder-demo@1.0.0 structured
+> node --env-file=.env 02-structured.mjs Мене не буде кілька днів наступного тижня
+
+{
+  "status": "needs_info",
+  "leaveType": null,
+  "startDate": null,
+  "endDate": null,
+  "question": "Які саме дати наступного тижня Ви плануєте бути відсутніми? Будь ласка, вкажіть дати початку і кінця відсутності."
+}
+Модель: nvidia/nemotron-3.5-super-vl:free | 5848 мс

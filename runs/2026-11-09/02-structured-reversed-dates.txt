@@ -1,0 +1,14 @@
+# 09.11.2026, 20:41:30 (Київ) | команда: npm run structured -- "Прошу відпустку з 20 грудня по 5 грудня 2026" | модель: nvidia/nemotron-3.5-super-vl:free | тривалість: 7248 мс | код виходу: 0
+
+
+> 2026-quitcode-10-llm-ladder-demo@1.0.0 structured
+> node --env-file=.env 02-structured.mjs Прошу відпустку з 20 грудня по 5 грудня 2026
+
+{
+  "status": "needs_info",
+  "leaveType": "vacation",
+  "startDate": null,
+  "endDate": null,
+  "question": "Уточніть, будь ласка, правильні дати початку та кінця відпустки, оскільки вказано дату початку пізніше, ніж дата кінця."
+}
+Модель: nvidia/nemotron-3.5-super-vl:free | 6666 мс

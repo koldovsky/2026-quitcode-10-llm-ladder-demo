@@ -1,0 +1,14 @@
+# 09.11.2026, 20:41:05 (Київ) | команда: npm run structured | модель: nvidia/nemotron-3.5-super-vl:free | тривалість: 6866 мс | код виходу: 0
+
+
+> 2026-quitcode-10-llm-ladder-demo@1.0.0 structured
+> node --env-file=.env 02-structured.mjs
+
+{
+  "status": "ok",
+  "leaveType": "sick",
+  "startDate": "2026-11-09",
+  "endDate": "2026-11-10",
+  "question": null
+}
+Модель: nvidia/nemotron-3.5-super-vl:free | 6317 мс

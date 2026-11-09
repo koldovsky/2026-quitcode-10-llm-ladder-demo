@@ -1,0 +1,22 @@
+{
+  "name": "2026-quitcode-10-llm-ladder-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Драбина LLM: виклик → чат → структурований вивід → агент з інструментами (QuitCode WS10)",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "hello": "node --env-file=.env 00-hello.mjs",
+    "chat": "node --env-file=.env 01-chat.mjs",
+    "structured": "node --env-file=.env 02-structured.mjs",
+    "agent": "node --env-file=.env 03-agent.mjs"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "3.1.0",
+    "ai": "7.0.162",
+    "zod": "4.6.7"
+  }
+}
